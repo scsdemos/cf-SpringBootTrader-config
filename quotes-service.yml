@@ -8,6 +8,7 @@ pivotal:
     companies_url: http://dev.markitondemand.com/Api/v2/Lookup/json?input={name}
     yahoo_rest_query: https://query.yahooapis.com/v1/public/yql?q=select * from yahoo.finance.quotes where symbol in ('{symbol}')&format={fmt}&env={env}
     yahoo_env: http://datatables.org/alltables.env
+    foo: bar
 security:
   basic:
     enabled: false
